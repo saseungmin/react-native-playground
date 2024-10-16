@@ -2063,6 +2063,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nf-team/core@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@nf-team/core@npm:2.1.0"
+  checksum: 10c0/e78d314be3633fd70f4a7504b8c94b237f0a33028a0ed7e1b625094a1eaeec4e4f78ce0711a170219d5ffd626cb8091417b77b45fd0568780eb077bac7b20a27
+  languageName: node
+  linkType: hard
+
 "@nf-team/eslint-config@npm:^3.4.0":
   version: 3.4.0
   resolution: "@nf-team/eslint-config@npm:3.4.0"
@@ -2089,6 +2096,16 @@ __metadata:
     eslint-plugin-simple-import-sort: ^12.0.0
     eslint-plugin-unused-imports: ^4.0.0
   checksum: 10c0/7da888ca75220c59356e24952d495217fe10090f491069c27566dcee310100035eeb7dbd8f0ca1182ecbff4db9c198f1d6bfda85377e440e5e961524d492f7c0
+  languageName: node
+  linkType: hard
+
+"@nf-team/react@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "@nf-team/react@npm:2.7.1"
+  peerDependencies:
+    react: ^18
+    react-dom: ^18
+  checksum: 10c0/4efa809288783fd897e465acc4a12179e424b9d22e36b39411e32881b0576c0aea50094a1051feffe91a43bdb943bedc0b4c90d8ec79afb9417c23742df3cdfe
   languageName: node
   linkType: hard
 
@@ -10305,7 +10322,9 @@ __metadata:
   dependencies:
     "@babel/core": "npm:^7.20.0"
     "@expo/vector-icons": "npm:^14.0.2"
+    "@nf-team/core": "npm:^2.1.0"
     "@nf-team/eslint-config": "npm:^3.4.0"
+    "@nf-team/react": "npm:^2.7.1"
     "@react-navigation/native": "npm:^6.0.2"
     "@types/jest": "npm:^29.5.12"
     "@types/react": "npm:~18.2.45"
